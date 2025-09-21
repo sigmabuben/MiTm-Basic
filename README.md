@@ -31,7 +31,7 @@ Install dependencies:
 1.Clone the repo and go into the folder:
 ```
 git clone https://github.com/YourUsername/Basic.py.git 
-cd Basic.py
+cd basicMitm.py
 ```
 
 2.Run the script with root - important!:
