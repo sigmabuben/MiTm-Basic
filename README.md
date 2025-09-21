@@ -4,8 +4,6 @@
 `basicMitm.py` is a simple Python script that demonstrates **ARP poisoning / MITM** in a controlled lab environment.  
 Think of it as a hands-on tool to learn how ARP spoofing works, see network traffic in action, and understand the risks and mitigations.  
 
-![alt SyslogPic](screenshotA.png)
-
 ---
 
 ## Features
